@@ -2,15 +2,16 @@
 Faça um programa que leia um numero inteiro N e depois imprima os N primeiros numeros
 naturais impares
 """
-print("Gerador do n primeiros números ímpares positivos\n")
-# leia o valor de n
-n = int(input("Digite o valor de n: "))
+print('-' * 50)
+print("Gerador de números ímpares positivos".center(50))
+print('-' * 50)
 
-i = 0  # contador de ímpares impressos
+n = int(input("Digite o valor para mostrar a quantidade em números impares: "))
+i = 0
+impar = 1
 
-ímpar = 1  # primeiro número ímpar
-
-while i < n:  # imprima os n primeiros impares, um por linha
-    print(ímpar)  # imprima o próximo número ímpar
-    i = i + 1  # incremente o contador
-    ímpar = ímpar + 2  # determine o próximo ímpar
+print(f'- O valor informado foi {n}\n- Os números impares são: ', end='')
+while i < n:
+    print(f'{impar}', end=' ')
+    i = i + 1
+    impar += 2
