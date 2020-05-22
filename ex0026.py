@@ -1,4 +1,5 @@
 """
-Faça um algoritmo que encontre o primeiro múltiplo de 11, 13 ou 17 após um número dado.
+Faça um programa que leia um numero inteiro
+e mostre na tela seu sucessor e seu antecessor.
 """
 
